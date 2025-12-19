@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
-const connectDB = require('./db/connectDB.js');
-const ticketRoutes = require('./routes/ticketRoutes.js');
-const foodRoutes = require('./routes/foodRoutes.js');
+const connectDB = require('./Db/connectDB.js');
+const ticketRoutes = require('./Routes/ticketRoutes.js');
+const foodRoutes = require('./Routes/foodRoutes.js');
 
 const app = express();
 
